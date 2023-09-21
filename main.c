@@ -4,9 +4,13 @@
 #include <conio.h>
 int main(void)
 {
-    SetConsoleCP(1251); 
-    SetConsoleOutputCP(1251);
-    //setlocale(LC_ALL,"");
+    int a,b,c;
+    
+    a = 10;
+    b = 20;
+    c = 30;
+    a = b+c;
+
     printf("Hello!\n");
     getch();
     return 0;
